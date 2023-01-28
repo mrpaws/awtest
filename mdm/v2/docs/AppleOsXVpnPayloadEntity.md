@@ -1,0 +1,53 @@
+# AppleOsXVpnPayloadEntity
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**connection_name** | **str** | Gets or sets description of the VPN connection displayed on the device. | [optional] 
+**connection_type** | **str** | Gets or sets determines the settings available in the payload for this type of VPN connection. | [optional] 
+**server** | **str** | Gets or sets iP address or host name of VPN server. | [optional] 
+**account** | **str** | Gets or sets username used for authentication. | [optional] 
+**encryption_level** | **int** | Gets or sets level of data encryption applied to the connection. 1: None, 2: Automatic, 3: Maximum Bit. | [optional] 
+**send_all_traffic** | **bool** | Gets or sets a value indicating whether if true, all network traffic is sent over VPN. | [optional] 
+**per_app_vpn** | **bool** | Gets or sets a value indicating whether per-app VPN that needed to be configured on the device. | [optional] 
+**connect_automatically** | **bool** | Gets or sets a value indicating whether enabled when PerAppVpn tag is set to true. Specifies if the VPN connection has to be made automatically. | [optional] 
+**enable_safari_domains** | **bool** | Gets or sets a value indicating whether if true, enables Safari Domains. | [optional] 
+**safari_domains** | **list[str]** | Gets or sets domains that should trigger this VPN connection in Safari. | [optional] 
+**app_mapping** | **bool** | Gets or sets a value indicating whether if true, allows specific applications to open a secure VPN connection. | [optional] 
+**application_bundle_id** | **list[str]** | Gets or sets app bundle IDs for applications allowed to open a secure VPN connection. | [optional] 
+**shared_secret** | **str** | Gets or sets the shared secret for this VPN account. | [optional] 
+**machine_authentication** | **int** | Gets or sets the authentication mode for IPSec. 1: Shared Secret, 2: Certificate. | [optional] 
+**group_name** | **str** | Gets or sets the name of the group to use. | [optional] 
+**use_hybrid_authentication** | **bool** | Gets or sets a value indicating whether specifies if a combination of Secret, Name and Certificate need to be used for Authentication. | [optional] 
+**prompt_for_password** | **bool** | Gets or sets a value indicating whether when true, the user is prompted to privide the password on the device. | [optional] 
+**identity_certificate** | **str** | Gets or sets the crtificate name for IPSec. | [optional] 
+**include_user_pin** | **bool** | Gets or sets a value indicating whether setting to true sends the device user&#39;s pin along with the authentication. | [optional] 
+**enable_vpnon_demand** | **bool** | Gets or sets a value indicating whether setting to true, enables VPN On-Demand feature for networks that user certificate based Authentication. | [optional] 
+**web_logon** | **bool** | Gets or sets a value indicating whether gets or Sets WebLogOn for F5Access client. | [optional] 
+**mdm_assigned_id** | **str** | Gets or Sets MDM Assigned ID. | [optional] 
+**mdm_device_unique_id** | **str** | Gets or Sets MDM Device UUID. | [optional] 
+**mdm_device_wifi_mac_address** | **str** | Gets or Sets Device Wi-fi Mac Address. | [optional] 
+**mdm_device_serial_number** | **str** | Gets or Sets Device Serial number. | [optional] 
+**provider_type** | **str** | Gets or Sets Provider type for F5 Access client. | [optional] 
+**vpn_on_demand** | [**list[AppleOsXVpnOnDemandEntity]**](AppleOsXVpnOnDemandEntity.md) | Gets or sets list of the VPN On Demand Action Parameters. | [optional] 
+**vpn_password** | **str** | Gets or sets the password used for authentication. | [optional] 
+**proxy** | **str** | Gets or sets proxy types. | [optional] 
+**proxy_server** | **str** | Gets or sets the host name of the HTTP proxy. | [optional] 
+**port** | **int** | Gets or sets the port number of the HTTP proxy. | [optional] 
+**user_name** | **str** | Gets or sets the username used for authentication. | [optional] 
+**password** | **str** | Gets or sets the password used for authentication. | [optional] 
+**proxy_server_auto_config_url** | **str** | Gets or sets uRL to the location of the proxy auto-configuration file. | [optional] 
+**mail_domains** | **list[str]** | Gets or sets list of mail domain names. | [optional] 
+**contacts_domains** | **list[str]** | Gets or sets list of contacts domain names. | [optional] 
+**calendar_domains** | **list[str]** | Gets or sets list of calendar domain names. | [optional] 
+**associated_domains** | **list[str]** | Gets or sets list of associated domain names. | [optional] 
+**excluded_domains** | **list[str]** | Gets or sets list of exclude domain names. | [optional] 
+**provider_designated_requirement** | **str** | Gets or sets designated requirement for vpn profiler. | [optional] 
+**exclude_local_networks** | **bool** | Gets or sets a value indicating whether routes all local network traffic outside VPN. | [optional] 
+**include_all_networks** | **bool** | Gets or sets a value indicating whether routes all traffic through VPN. | [optional] 
+**custom_datas** | [**list[CustomData]**](CustomData.md) | Gets or sets list of Custom Data. | [optional] 
+**user_authentication** | **str** | Gets or sets authentication type for connection. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

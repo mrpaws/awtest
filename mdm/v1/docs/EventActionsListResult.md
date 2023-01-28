@@ -1,0 +1,13 @@
+# EventActionsListResult
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**event_actions_details** | [**list[EventActionsDetail]**](EventActionsDetail.md) | Gets or sets details of Event Actions search result. | [optional] 
+**page** | **int** | Gets or sets the result set page index. | [optional] 
+**page_size** | **int** | Gets or sets the  result set page size. | [optional] 
+**total** | **int** | Gets or sets the  total number of results. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

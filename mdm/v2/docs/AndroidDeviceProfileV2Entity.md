@@ -1,0 +1,53 @@
+# AndroidDeviceProfileV2Entity
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**general** | [**GeneralPayloadV2Entity**](GeneralPayloadV2Entity.md) |  | [optional] 
+**passcode** | [**AndroidPasscodePayloadV2Entity_**](AndroidPasscodePayloadV2Entity_.md) | Gets or sets the passcode. | [optional] 
+**date_time** | [**AndroidDateTimePayloadV2Entity_**](AndroidDateTimePayloadV2Entity_.md) | Gets or sets the DateTime. | [optional] 
+**wifi_list** | [**list[AndroidWifiPayloadV2Entity]**](AndroidWifiPayloadV2Entity.md) | Gets or sets the wifi list. | [optional] 
+**credentials_list** | [**list[AndroidCredentialsPayloadV2Entity]**](AndroidCredentialsPayloadV2Entity.md) | Gets or sets the credentials list. | [optional] 
+**email_list** | [**list[AndroidEmailPayloadV2Entity]**](AndroidEmailPayloadV2Entity.md) | Gets or sets the email list. | [optional] 
+**restrictions** | [**AndroidRestrictionsPayloadV2Entity_**](AndroidRestrictionsPayloadV2Entity_.md) | Gets or sets the restrictions. | [optional] 
+**vpn_list** | [**list[AndroidVpnPayloadV2Entity]**](AndroidVpnPayloadV2Entity.md) | Gets or sets the VPN list. | [optional] 
+**custom_settings_list** | [**list[AndroidCustomSettingsPayloadV2Entity]**](AndroidCustomSettingsPayloadV2Entity.md) | Gets or sets the custom settings list. | [optional] 
+**exchange_active_sync** | [**AndroidEASPayloadV2Entity_**](AndroidEASPayloadV2Entity_.md) | Gets or sets the exchange active synchronize. | [optional] 
+**android_for_work_system_updates** | [**AndroidForWorkSystemUpdatesV2Entity_**](AndroidForWorkSystemUpdatesV2Entity_.md) | Gets or sets the android for work system updates. | [optional] 
+**android_for_work_exchange_active_sync** | [**AndroidForWorkEASPayloadV2Entity_**](AndroidForWorkEASPayloadV2Entity_.md) | Gets or sets the android for work exchange active synchronize. | [optional] 
+**android_for_work_chrome_browser** | [**AndroidForWorkChromeBrowserPayloadV2Entity_**](AndroidForWorkChromeBrowserPayloadV2Entity_.md) | Gets or sets the android for work chrome browser. | [optional] 
+**android_for_work_restrictions** | [**AndroidForWorkRestrictionsPayloadV2Entity_**](AndroidForWorkRestrictionsPayloadV2Entity_.md) | Gets or sets the android for work restrictions. | [optional] 
+**android_for_work_vpn** | [**AndroidForWorkVPNPayloadV2Entity_**](AndroidForWorkVPNPayloadV2Entity_.md) | Gets or sets the android for work VPN. | [optional] 
+**android_for_work_passcode** | [**AndroidForWorkPasscodePayloadV2Entity_**](AndroidForWorkPasscodePayloadV2Entity_.md) | Gets or sets the android for work passcode. | [optional] 
+**android_for_work_permissions** | [**AndroidForWorkPermissionsPayloadV2Entity_**](AndroidForWorkPermissionsPayloadV2Entity_.md) | Gets or sets the android for work permissions. | [optional] 
+**android_for_work_single_app_mode** | [**AndroidForWorkSingleAppModePayloadV2Entity_**](AndroidForWorkSingleAppModePayloadV2Entity_.md) | Gets or sets the android for work single application mode. | [optional] 
+**android_for_work_auto_update** | [**AndroidForWorkAutoUpdatePayloadV2Entity_**](AndroidForWorkAutoUpdatePayloadV2Entity_.md) | Gets or sets the android for work automatic update. | [optional] 
+**android_for_work_custom_messages** | [**AndroidForWorkCustomMessagesPayloadV2Entity_**](AndroidForWorkCustomMessagesPayloadV2Entity_.md) | Gets or sets the android for work custom messages. | [optional] 
+**android_for_work_application_control** | [**AndroidForWorkApplicationControlPayloadV2Entity_**](AndroidForWorkApplicationControlPayloadV2Entity_.md) | Gets or sets the android for work application control. | [optional] 
+**android_container_passcode** | [**AndroidContainerPasscodePayloadV2Entity_**](AndroidContainerPasscodePayloadV2Entity_.md) | Gets or sets the android container passcode. | [optional] 
+**android_container_browser** | [**AndroidContainerBrowserPayloadV2Entity_**](AndroidContainerBrowserPayloadV2Entity_.md) | Gets or sets the android container browser. | [optional] 
+**android_container_eas** | [**AndroidContainerEasPayloadV2Entity_**](AndroidContainerEasPayloadV2Entity_.md) | Gets or sets the android container eas. | [optional] 
+**android_container_email** | [**AndroidContainerEmailPayloadV2Entity_**](AndroidContainerEmailPayloadV2Entity_.md) | Gets or sets the android container email. | [optional] 
+**android_container_vpn_list** | [**list[AndroidConatinerVPNPayloadV2Entity_]**](AndroidConatinerVPNPayloadV2Entity_.md) | Gets or sets the android container VPN list. | [optional] 
+**android_container_credentials_list** | [**list[AndroidContainerCredentialsPayloadV2Entity_]**](AndroidContainerCredentialsPayloadV2Entity_.md) | Gets or sets the android container credentials list. | [optional] 
+**bookmark_settings** | [**AndroidBookmarkSettingsPayloadV2Entity_**](AndroidBookmarkSettingsPayloadV2Entity_.md) | Gets or sets the bookmark settings. | [optional] 
+**android_container_single_sign_on** | [**AndroidContainerSingleSignOnPayloadV2Entity_**](AndroidContainerSingleSignOnPayloadV2Entity_.md) | Gets or sets the android container single sign on. | [optional] 
+**android_container_smart_card** | [**AndroidContainerSmartCardPayloadV2Entity_**](AndroidContainerSmartCardPayloadV2Entity_.md) | Gets or sets the android container smart card. | [optional] 
+**android_container_app_control** | [**AndroidContainerAppControlPayloadV2Entity_**](AndroidContainerAppControlPayloadV2Entity_.md) | Gets or sets the android container application control. | [optional] 
+**android_container_book_mark** | [**AndroidContainerBookmarkPayloadV2Entity_**](AndroidContainerBookmarkPayloadV2Entity_.md) | Gets or sets the android container book mark. | [optional] 
+**android_application_control** | [**AndroidApplicationControlPayloadV2Entity_**](AndroidApplicationControlPayloadV2Entity_.md) | Gets or sets the android application control. | [optional] 
+**android_kiosk** | [**AndroidKioskPayloadV2Entity_**](AndroidKioskPayloadV2Entity_.md) | Gets or sets the android kiosk. | [optional] 
+**android_for_work_kiosk** | [**AndroidForWorkKioskPayloadV2Entity_**](AndroidForWorkKioskPayloadV2Entity_.md) | Gets or sets the android for work kiosk. | [optional] 
+**android_for_work_zebra_mx** | [**AndroidForWorkZebraMxPayloadV2Entity_**](AndroidForWorkZebraMxPayloadV2Entity_.md) | Gets or sets the android for work zebra mx. | [optional] 
+**android_for_work_samsung_date_time** | [**AndroidForWorkSamsungDateTimePayloadV2Entity_**](AndroidForWorkSamsungDateTimePayloadV2Entity_.md) | Gets or sets the android for work samsung date time. | [optional] 
+**android_for_work_samsung_apn** | [**AndroidForWorkSamsungAPNPayloadV2Entity_**](AndroidForWorkSamsungAPNPayloadV2Entity_.md) | Gets or sets the android for work samsung apn. | [optional] 
+**android_for_work_samsung_firewall** | [**AndroidForWorkSamsungFirewallPayloadV2Entity_**](AndroidForWorkSamsungFirewallPayloadV2Entity_.md) | Gets or sets the android for work samsung firewall. | [optional] 
+**android_for_work_factory_reset_protection** | [**AndroidForWorkFactoryResetProtectionPayloadV2Entity_**](AndroidForWorkFactoryResetProtectionPayloadV2Entity_.md) | Gets or sets the android for work factory reset protection. | [optional] 
+**android_for_work_credentials_list** | [**list[AndroidForWorkCredentialsPayloadV2Entity]**](AndroidForWorkCredentialsPayloadV2Entity.md) | Gets or sets the android for work credentials list. | [optional] 
+**android_for_work_wifi_list** | [**list[AndroidForWorkWifiPayloadV2Entity]**](AndroidForWorkWifiPayloadV2Entity.md) | Gets or sets the android for work wifi list. | [optional] 
+**android_for_work_custom_settings_list** | [**list[AndroidForWorkCustomSettingsPayloadV2Entity]**](AndroidForWorkCustomSettingsPayloadV2Entity.md) | Gets or sets the android for work custom settings list. | [optional] 
+**android_for_work_proxy** | [**AndroidForWorkProxyPayloadV2Entity_**](AndroidForWorkProxyPayloadV2Entity_.md) | Gets or sets the android for work proxy. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
